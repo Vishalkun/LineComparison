@@ -36,14 +36,20 @@
 
             Console.WriteLine(length_of_line_2 == length_of_line_1);
 
-            if (length_of_line_1 == length_of_line_2)
+            if (length_of_line_1 > length_of_line_2)
             {
-                Console.WriteLine("two lines are equal");
+                Console.WriteLine("line 1 is greater then line 2");
+            }
+            else if (length_of_line_1 < length_of_line_2)
+            {
+                Console.WriteLine("line 2 is greater then line 1");
             }
             else
             {
-                Console.WriteLine("two lines are not equal");
+                Console.WriteLine("two lines are equal");
             }
+
+
 
 
         }
